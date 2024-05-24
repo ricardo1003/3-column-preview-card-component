@@ -1,15 +1,39 @@
 body{
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-family: "Lexend Deca";
+    font-size: 15px;
+    
+}
+section{
+    width: 20rem; height: 30rem;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section h1{
+    margin: 0;
+    font-size: 3em;
+    font-family: "Big Shoulders Display";
+}
+section p{
+    min-height: 10rem;
 }
 
 
-
-
-
+.sedans{
+    background-color:hsl(31, 77%, 52%);
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+    .luxury{
+    background-color: hsl(179, 100%, 13%);
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
